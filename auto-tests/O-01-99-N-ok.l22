@@ -1,0 +1,8 @@
+var f = (int x, double y) -> double:
+  return y + x
+begin
+  writeln f(3, 10)
+  writeln f(2,  3)
+  return 0
+end
+

@@ -1,0 +1,6 @@
+foreign int<> argc
+begin
+  writeln argc()
+  return 0
+end
+

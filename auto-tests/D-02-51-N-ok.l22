@@ -1,0 +1,16 @@
+begin
+  if (0) then:
+     writeln "KO"
+  elif (0) then:
+     writeln "elif1"
+  elif (0) then:
+     writeln "elif2"
+  elif (0) then:
+     writeln "elif3"
+  elif (1) then:
+     writeln "elif4"
+  else:
+     writeln "OK"
+  return 0
+end
+

@@ -1,0 +1,4 @@
+begin 
+    writeln "X \013 Y \13 Z \n" 
+    return 0 
+end

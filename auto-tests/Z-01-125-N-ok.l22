@@ -1,0 +1,9 @@
+var f = () -> int<int>:
+  return (int i) -> int:
+    return i + 1
+begin
+  int<int> g = f()
+  writeln g(1)
+  return 0
+end
+

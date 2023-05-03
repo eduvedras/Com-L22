@@ -1,0 +1,10 @@
+begin
+  int<int> f
+  int<int> g
+  g = f = (int i) -> int:
+    return i + 1
+  writeln g(1)
+  writeln f(2)
+  return 0
+end
+

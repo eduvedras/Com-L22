@@ -1,0 +1,7 @@
+var f = (int x) -> void:
+  writeln x
+begin
+  f(3)
+  return 0
+end
+

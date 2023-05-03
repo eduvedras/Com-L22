@@ -1,0 +1,7 @@
+begin 
+    if (0) then: 
+         writeln "KO" 
+    else: 
+         writeln "OK" 
+    return 0 
+end

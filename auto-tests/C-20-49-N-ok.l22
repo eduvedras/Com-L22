@@ -1,0 +1,5 @@
+text x = "ole" "2"  
+begin 
+    writeln x 
+    return 0
+end

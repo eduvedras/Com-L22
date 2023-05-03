@@ -1,0 +1,12 @@
+use int<text> g
+var f = (text s) -> int:
+  g(s)
+  return 10
+var g = (text n) -> int:
+  writeln n
+  return 14
+begin
+  writeln f("ola")
+  return 0
+end
+

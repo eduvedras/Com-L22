@@ -1,0 +1,7 @@
+var f = () -> text:
+  return "ola"
+begin
+  writeln f()
+  return 0
+end
+

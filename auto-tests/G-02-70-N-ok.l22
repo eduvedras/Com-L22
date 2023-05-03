@@ -1,0 +1,4 @@
+begin
+  writeln sizeof(1.1)
+end
+

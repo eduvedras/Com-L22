@@ -1,0 +1,5 @@
+begin 
+    writeln 065 
+    writeln 065 
+    return 0 
+end

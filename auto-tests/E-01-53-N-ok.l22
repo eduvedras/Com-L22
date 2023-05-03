@@ -1,0 +1,9 @@
+int x
+begin
+  x = 1
+  while (x <= 3) do: 
+    writeln x
+    x = x + 1
+  return 0
+end
+

@@ -1,0 +1,7 @@
+var f = (int x, int y) -> void:
+  writeln x + y
+begin
+  f(3, 4)
+  return 0
+end
+

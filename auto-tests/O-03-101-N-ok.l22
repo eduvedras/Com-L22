@@ -1,0 +1,8 @@
+var f = (double y) -> double:
+  return 9
+begin
+  writeln f(10)
+  writeln f(2)
+  return 0
+end
+

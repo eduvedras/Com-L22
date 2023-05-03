@@ -1,0 +1,8 @@
+int x = 1
+begin
+  while (x <= 5) do:
+    writeln x
+    x = x + 2
+  return 0
+end
+

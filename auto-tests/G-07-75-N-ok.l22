@@ -1,0 +1,6 @@
+var f = () -> void:
+  writeln 1.1
+begin
+  writeln sizeof(f)
+end
+

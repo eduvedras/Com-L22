@@ -1,0 +1,8 @@
+public main = ([double] p) -> double:
+  return p[0]
+begin
+  double r = 6.1E1
+  writeln main(r?)
+  return 0
+end
+

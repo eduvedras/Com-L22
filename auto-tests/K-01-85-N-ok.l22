@@ -1,0 +1,10 @@
+public int x = 10
+var f = () -> void:
+  int x = 3
+  writeln x
+begin
+  f()
+  writeln x
+  return 0
+end
+

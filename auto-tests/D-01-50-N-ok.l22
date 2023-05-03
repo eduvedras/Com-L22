@@ -1,0 +1,10 @@
+begin
+  if (0) then:
+    writeln "KO"
+  elif (1) then:
+    writeln "elif"
+  else:
+    writeln "OK"
+  return 0
+end
+

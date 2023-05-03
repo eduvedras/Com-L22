@@ -1,0 +1,12 @@
+int x = 10
+int y = 3
+int z = 30
+var f = () -> int:
+  z = 7
+  return z
+begin
+  (not x == y) or f()
+  writeln z
+  return 0
+end
+

@@ -1,0 +1,4 @@
+begin 
+    writeln not 3 < 10 
+    return 0 
+end

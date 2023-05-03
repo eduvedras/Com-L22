@@ -1,0 +1,18 @@
+double<int> f = (int i) -> double:
+  return i + 1.1
+double<double<int>,int> g = (double<int> f, int i) -> double:
+  return f(i)
+begin
+  double<int> ff = (double d) -> int:
+    return 2
+  writeln f(0)  ;; retorna 1.1
+  f = (double d) -> int:
+    return -1
+  writeln f(0)  ;; retorna -1
+  writeln ff(0)  ;; retorna 2
+  writeln g((double d) -> int:
+    return -2
+  , 0)  ;; retorna -2
+  return 0
+end
+

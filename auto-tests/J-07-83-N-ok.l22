@@ -1,0 +1,8 @@
+var f = () -> void: 
+  int main = 1
+  writeln 2 * main + main
+begin
+  f()
+  return 0
+end
+
